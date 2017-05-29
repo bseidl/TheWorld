@@ -25,10 +25,10 @@ input[type=text], input[type=password], textarea {
     transition: left ease .25s;
 }
 
-#sidebar.hide-sidebar {
-    left: -250px;
-    transition: left ease .25s;
-}
+    #sidebar.hide-sidebar {
+        left: -250px;
+        transition: left ease .25s;
+    }
 
 .headshot {
     max-width: 50px;
@@ -68,7 +68,7 @@ input[type=text], input[type=password], textarea {
     transition: margin-left ease .25s;
 }
 
-#wrapper.hide-sidebar {
-    margin-left: 0;
-    transition: margin-left ease .25s;
-}
+    #wrapper.hide-sidebar {
+        margin-left: 0;
+        transition: margin-left ease .25s;
+    }
