@@ -9,7 +9,7 @@
 <body>
     <div id="sidebar">
         <img src="https://doxter-de.s3.amazonaws.com/assets/images/calendars/4f5795b7f105b10001000018.png" alt="headshot" class="headshot"/>
-        <span>Max Mustermann</span>
+        <span id="username">Max Mustermann</span>
         <ul class="menu">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -18,6 +18,9 @@
     </div>
     <div id="wrapper">
         <div id="main">
+            <div>
+                <button id="sidebarToggle">Toggle Menu</button>
+            </div>
             <h3>The World</h3>
             <p>This will be a fun website soon!</p>
 
@@ -37,5 +40,8 @@
             &copy; 2017 The World GmbH
         </div>
     </div>
+
+    <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
 </body>
 </html>
